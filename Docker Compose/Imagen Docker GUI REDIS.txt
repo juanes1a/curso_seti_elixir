@@ -1,0 +1,2 @@
+docker run --rm -ti -p 5001:5001 --network=dockercompose_default --link curso-redis:curso-redis marian/rebrow
+http://localhost:5001/curso-redis:6379/0/
